@@ -1,4 +1,4 @@
-const notas = [10, 8, 4, 8]
+const notas = [10, 8, 5, 8]
 
 let somaNotas = 0
 
