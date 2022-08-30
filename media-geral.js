@@ -10,3 +10,8 @@ function mediaSala(notasDaSala){
 console.log(`A media da sala de JavaScript é: ${mediaSala(salaJs)}`)
 console.log(`A media da sala de Java é: ${mediaSala(salaJava)}`)
 console.log(`A media da sala de Python é: ${mediaSala(salaPython)}`)
+
+const notas = [10, 6, 8, 4]
+
+const media = notas.reduce((acum, soma) => soma + acum,0)/notas.length
+console.log(`a media dos alunos é ${media}`)
